@@ -1,0 +1,53 @@
+---
+
+port: 4000
+host: 127.0.0.1
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "Wohnwerk"
+keywords:    "Wohngemeinschaft, Kommune, Lebensgemeinschaft, Wohnprojekt, Niedersachsen, Hann.Münden, Göttingen, Kassel"
+description: "Wir sind das Wohnwerk und sehen uns als buntes Mehrgenerationen Projekt. Bei uns haben die Ideen, Eindruecken und Lebensgeschichten aller Generationen einen wertvollen Platz. Wir sind offen für neues, komm mit uns in Kontakt!"
+source_link: "https://github.com/HansAchterbahn/wohnwerk"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+  gray:       '#444'
+  gray1:      '#111'
+  gray2:      '#222'
+  gray3:      '#333'
+  gray4:      '#444'
+  gray5:      '#555'
+  gray6:      '#666'
+  gray7:      '#777'
+  gray8:      '#888'
+  gray9:      '#999'
+  grayA:      '#aaa'
+  grayB:      '#bbb'
+  grayC:      '#ccc'
+  grayD:      '#ddd'
+  grayE:      '#eee'
+
+
+kramdown:
+  auto_ids:  false
