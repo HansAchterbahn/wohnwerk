@@ -1,0 +1,16 @@
+---
+type: sectionleft
+title: "Projekt"
+layout: default
+color: gray   #text color
+bg: green  #defined in _config.yml, can use html color like '#0fbfcf'
+image: 'img/own-gemeinschaf-am-rappenhof.jpg'
+image-size: "75%"
+---
+
+## Das Projekt
+
+Wir sind eine bunte Mischung von jungen und älteren Menschen, Familien, Paaren und Alleinstehenden. Zusammen wollen wir uns den Traum vom Leben in Gemeinschaft erfüllen.
+
+
+Organisiert sind wir als Genossenschaft (in Gründung) und legen Wert auf Entscheidungen im Konsens. Als Genossenschaft haben wir das Ziel für unsere Mitglieder günstigen, nachhaltigen und sicheren Wohnraum zu schaffen, den Grund und Boden der weiteren spekulativen Verwertung zu entziehen und somit einen Beitrag zu leisten, um den derzeitigen Wohnungsmarkt wieder ein bisschen fairer zu gestalten.
