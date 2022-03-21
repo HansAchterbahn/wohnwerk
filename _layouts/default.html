@@ -34,12 +34,14 @@
     <!-- Fußzeile / Abspann / Danksagung -->
     <div id="footer" class="section text-white">
       <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {% capture sourcetext %} {% include source.md %} {% endcapture %}
+        {% capture foottext1 %} {% include footer1.md %} {% endcapture %}
+        {% capture foottext2 %} {% include footer2.md %} {% endcapture %}
+        {% capture foottext3 %} {% include footer3.md %} {% endcapture %}
         <table>
           <tr>
-            <td> {{ foottext | markdownify }} </td>
-            <td> {{ sourcetext | markdownify }} </td>
+            <td> {{ foottext1 | markdownify }} </td>
+            <td> {{ foottext2 | markdownify }} </td>
+            <td> {{ foottext3 | markdownify }} </td>
           </tr>
         </table>
       </div>
