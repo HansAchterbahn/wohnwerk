@@ -86,7 +86,7 @@ img.round {
 
 hr {
   margin:60px auto;
-  width:50%;
+  width:100%;
   border-color: {{ site.colors.black }};
 }
 
@@ -96,11 +96,12 @@ hr {
 
 h1 {
   font-size: 90px;
+  line-height: 110px;
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-bottom: 60px;
   text-align: center;
-  padding: 0 4%;
+  padding: 200px 4% 0px;
 }
 
 h2 {
@@ -113,6 +114,9 @@ h2 {
 }
 
 h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 80px;
   margin-bottom: 40px;
   text-align: center;
   padding: 0 4%;
@@ -436,15 +440,13 @@ div.bg-white {
 
 }
 
-.bg-gray p {
-  color: #f8f8f8
-}
-
-.bg-gray h2 {
-  color: #f8f8f8
-}
-
-.bg-gray h4 {
-  color: #111111;
-  background-color: #9bcf2f;
+td {
+  margin: auto;
+  padding: 0px
+   60px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  align: left;
 }
