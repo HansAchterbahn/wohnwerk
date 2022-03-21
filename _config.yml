@@ -17,6 +17,7 @@ markdown: kramdown
 title:       "Wohnwerk"
 keywords:    "Wohngemeinschaft, Kommune, Lebensgemeinschaft, Wohnprojekt, Niedersachsen, Hann.Münden, Göttingen, Kassel"
 description: "Wir sind das Wohnwerk und sehen uns als buntes Mehrgenerationen Projekt. Bei uns haben die Ideen, Eindruecken und Lebensgeschichten aller Generationen einen wertvollen Platz. Wir sind offen für neues, komm mit uns in Kontakt!"
+url:         https://www.wohn-werk.org
 source_link: "https://github.com/HansAchterbahn/wohnwerk"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
