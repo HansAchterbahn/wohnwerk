@@ -1,0 +1,10 @@
+<!-- Menüleiste -->
+<nav><ul>
+  {% for node in site.posts reversed %}
+  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+    {% if node.type=="sectionbackground" %}
+    {% else %}
+      <li class="p-{{id}}"><a href="{{ site.url }}#{{id}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul></nav>
