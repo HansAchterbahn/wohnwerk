@@ -256,7 +256,7 @@ nav ul li:hover, nav ul li.active {
   display: grid;
   grid-template-columns: 50% 50%;
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
   margin: 0 0;
   padding: 0;
 /*  grid-gap: 10px;*/
@@ -388,14 +388,25 @@ nav ul li:hover, nav ul li.active {
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
   nav ul li {
-    min-width:60px;
+    /*min-width:60px;*/
     line-height:40px;
+    display: block;
   }
+
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
 }
 
 /* tiny size (phones) */
 @media only screen and (max-width: 380px) {
-  nav ul li { min-width:90px; line-height:20px; }
+  nav ul li {
+    /*min-width:90px; */
+    line-height:20px;
+    display: block;
+  }
 
   .sectionbackground {
     min-height:300px;
@@ -403,6 +414,7 @@ nav ul li:hover, nav ul li.active {
 
   .grid {
     grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
   }
 
   img {
@@ -413,7 +425,7 @@ nav ul li:hover, nav ul li.active {
 
 
 /* anything not desktop */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
 	h1 { font-size: 30px; }
 	h2 { font-size: 24px; }
 	h3 { font-size: 20px; }
@@ -428,6 +440,11 @@ nav ul li:hover, nav ul li.active {
     -webkit-column-count: 2;
     -moz-column-count:    2;
     column-count:         2;
+  }
+
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
   }
 }
 
