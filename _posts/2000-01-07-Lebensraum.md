@@ -1,5 +1,6 @@
 ---
-type: sectionleft
+type: title
+style: sectionleft
 title: "Lebensraum"
 layout: default
 color: gray  #text color

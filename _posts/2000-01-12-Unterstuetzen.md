@@ -1,5 +1,6 @@
 ---
-type: sectionleft
+type: title
+style: sectionleft
 title: "Unterstützen"
 layout: default
 color: gray  #text color

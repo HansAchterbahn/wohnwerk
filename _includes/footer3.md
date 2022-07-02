@@ -1,1 +1,2 @@
-[Impressum](/impressum)
+[Impressum](/impressum) \
+[News](/news)

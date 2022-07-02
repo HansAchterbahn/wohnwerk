@@ -2,6 +2,13 @@
 title: Lebensraum Wohnwerk
 layout: default
 ---
+<div id="news" class="center bg-white">
+  <div class="containertitle center">
+    <h1>— News —</h1>
+    <h3> Das Wohnwerk und unser Umfeld</h3>
+  </div>
+</div>
+
 
     <!-- Beiträge / Abschnitte -->
     {% for page in site.posts reversed %}
@@ -10,7 +17,7 @@ layout: default
       {% capture style %}{{ page.style | downcase }}{% endcapture %}
       {% capture image-size %}{{ page.image-size | downcase }}{% endcapture %}
 
-      {% if page.type=="title" %}
+      {% if page.type=="news" %}
 
         {% if page.style=="sectionbackground" %} <!-- Falls ein Hintergrundbild ausgewählt wurde: Background Bild -->
           <div id="{{id}}" class="{{style}} bg-{{id}}" style="background-image: url( {{ page.image }} );">

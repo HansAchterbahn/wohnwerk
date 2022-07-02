@@ -1,5 +1,6 @@
 ---
-type: sectionright
+type: title
+style: sectionright
 title: "Gemeinschaft"
 layout: default
 color: white   #text color

@@ -1,5 +1,6 @@
 ---
-type: sectionbackground
+type: title
+style: sectionbackground
 title: "Bild Haus"
 layout: default
 color: gray  #text color
