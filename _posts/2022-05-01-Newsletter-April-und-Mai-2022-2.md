@@ -3,8 +3,8 @@
   style: sectionright
   title: "Mai 2022"
   layout: default
-  color: gray   #text color
-  bg: green  #defined in _config.yml, can use html color like '#0fbfcf'
+  color: white   #text color
+  bg: gray  #defined in _config.yml, can use html color like '#0fbfcf'
   image: 'img/own-Besichtigung-Rappenhof-Mai-2022.jpg'
   image-size: "75%"
 ---
