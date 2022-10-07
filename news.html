@@ -11,7 +11,7 @@ layout: default
 
 
     <!-- Beiträge / Abschnitte -->
-    {% for page in site.posts reversed %}
+    {% for page in site.posts %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       {% capture bg %}{{ page.bg | downcase }}{% endcapture %}
       {% capture style %}{{ page.style | downcase }}{% endcapture %}
