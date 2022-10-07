@@ -25,11 +25,11 @@
           {% if node.style=="sectionbackground" %}
           {% else %}
             {% if node.type=="title" %}
-              <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+              <li class="p-{{id}}"><a href="{{ site.url }}#{{id}}">{{node.title}}</a></li>
             {% endif %}
           {% endif %}
         {% endfor %}
-        <!--<li class="p-news"><a href="{{site.url}}/news">News</a></li>-->
+        <li class="p-news"><a href="{{ site.url }}/news">News</a></li>
       </ul>
     </nav>
 
@@ -55,6 +55,8 @@
 
 {% include analytics.html %}
 </body>
+<!--
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
+-->
 </html>
