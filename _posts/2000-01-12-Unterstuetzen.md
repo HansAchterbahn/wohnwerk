@@ -14,7 +14,7 @@ image-size: 75%
 Du magst, was wir tun und möchtest uns dabei unterstützen? Komm zu unseren Treffen, bring deine Expertise mit ein, hilf auf der Baustelle oder spende uns einen Betrag deiner Wahl!
 
 **Konto** \
-Inhaber: Lebensraum Wohnwerk eG i. G. \
+Inhaber: Lebensraum Wohnwerk eG \
 ISBN: DE95 4306 0967 1256 3951 00 \
 BIC: GENODEM1GLS
 
