@@ -11,7 +11,7 @@ image-size: 75%
 
 ## Deine Unterstützung
 
-Du magst, was wir tun und möchtest uns dabei unterstützen? Komm zu unseren Treffen, bring deine Expertise mit ein, hilf auf der Baustelle oder spende uns einen Betrag deiner Wahl!
+Du magst, was wir tun und möchtest uns dabei unterstützen? Komm zu unseren Treffen und bring deine Expertise mit ein!
 
 **Konto** \
 Inhaber: Lebensraum Wohnwerk eG \
